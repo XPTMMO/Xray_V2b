@@ -383,8 +383,10 @@ show_usage() {
     echo "XrayR install            - Cài đặt XrayR"
     echo "XrayR uninstall          - Gỡ cài đặt XrayR"
     echo "XrayR version            - Kiếm tra phiên bản XrayR"
+    echo ""
+    echo "◄▬▬▬▬▬▬▬5GTOP1.PRO.VN---Web 4G-VPN giá rẻ, uy tin 100%▬▬▬▬▬▬▬▬►"
     echo "◄▬▬▬▬▬MMO365.PRO.VN---chuyên Vps làm VPN--Nhận Setup Web▬▬▬▬▬▬►"
-    echo "◄▬▬▬▬▬5GTOP1.PRO.VN---Web 4G-VPN giá rẻ, uy tin 100%▬▬▬▬▬▬▬▬▬▬►"
+    
 }
 
 show_menu() {
@@ -409,8 +411,10 @@ show_menu() {
  ${green}11.${plain} Cài đặt nhanh bbr (phụ trợ giúp tăng tốc mạng)
  ${green}12.${plain} Xem phiên bản XrayR 
  ${green}13.${plain} Cập nhật tập lệnh XrayR
+
+ ◄▬▬▬▬▬▬▬5GTOP1.PRO.VN---Web 4G-VPN giá rẻ, uy tin 100%▬▬▬▬▬▬▬▬►
  ◄▬▬▬▬▬MMO365.PRO.VN---chuyên Vps làm VPN--Nhận Setup Web▬▬▬▬▬▬►
- ◄▬▬▬▬▬5GTOP1.PRO.VN---Web 4G-VPN giá rẻ, uy tin 100%▬▬▬▬▬▬▬▬▬▬►
+ 
  "
  #Các bản cập nhật tiếp theo có thể được thêm vào chuỗi trên
     show_status
