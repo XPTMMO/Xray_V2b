@@ -204,7 +204,7 @@ install_XrayR() {
     echo "XrayR install            - Cài đặt XrayR"
     echo "XrayR uninstall          - Gỡ cài đặt XrayR"
     echo "XrayR version            - Kiếm tra phiên bản XrayR"
-    echo "◄▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓©5GTOP1.PRO.VN▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬►"
+    echo "◄▬▬▬▬▬▬▬▬▬▬▬▬▬MMO365.PRO.VN---©---5GTOP1.PRO.VN▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬►"
 }
 
 echo -e "${green}BẮT ĐẦU CÀI ĐẶT${plain}"
