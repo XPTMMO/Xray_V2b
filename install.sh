@@ -140,7 +140,7 @@ install_XrayR() {
     chmod +x XrayR
     mkdir /etc/XrayR/ -p
     rm /etc/systemd/system/XrayR.service -f
-    file="https://raw.githubusercontent.com/ownerskill/xrayrbeta/main/XrayR.service"
+    file="https://raw.githubusercontent.com/XPTMMO/Xray_V2b/refs/heads/main/XrayR.service"
     wget -q -N --no-check-certificate -O /etc/systemd/system/XrayR.service ${file}
     #cp -f XrayR.service /etc/systemd/system/
     systemctl daemon-reload
@@ -181,7 +181,7 @@ install_XrayR() {
     if [[ ! -f /etc/XrayR/rulelist ]]; then
         cp rulelist /etc/XrayR/
     fi
-    curl -o /usr/bin/XrayR -Ls https://raw.githubusercontent.com/ownerskill/xrayrbeta/main/xrayx.sh
+    curl -o /usr/bin/XrayR -Ls https://raw.githubusercontent.com/XPTMMO/Xray_V2b/refs/heads/main/xrayx.sh
     chmod +x /usr/bin/XrayR
     ln -s /usr/bin/XrayR /usr/bin/xrayr 
     chmod +x /usr/bin/xrayr
@@ -204,7 +204,7 @@ install_XrayR() {
     echo "XrayR install            - Cài đặt XrayR"
     echo "XrayR uninstall          - Gỡ cài đặt XrayR"
     echo "XrayR version            - Kiếm tra phiên bản XrayR"
-    echo "◄▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓©TECHZPN.PRO▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬►"
+    echo "◄▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓©5GTOP1.PRO.VN▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬►"
 }
 
 echo -e "${green}BẮT ĐẦU CÀI ĐẶT${plain}"
