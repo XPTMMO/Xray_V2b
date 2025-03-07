@@ -204,7 +204,8 @@ install_XrayR() {
     echo "XrayR install            - Cài đặt XrayR"
     echo "XrayR uninstall          - Gỡ cài đặt XrayR"
     echo "XrayR version            - Kiếm tra phiên bản XrayR"
-    echo "◄▬▬▬▬▬▬▬▬▬▬▬▬▬MMO365.PRO.VN---©---5GTOP1.PRO.VN▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬►"
+    echo "◄▬▬▬▬▬MMO365.PRO.VN---chuyên Vps làm VPN--Nhận Setup Web▬▬▬▬▬▬►"
+    echo "◄▬▬▬▬▬5GTOP1.PRO.VN---Web 4G-VPN giá rẻ, uy tin 100%▬▬▬▬▬▬▬▬▬▬►"
 }
 
 echo -e "${green}BẮT ĐẦU CÀI ĐẶT${plain}"
