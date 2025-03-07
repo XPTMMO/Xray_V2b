@@ -84,7 +84,7 @@ before_show_menu() {
 }
 
 install() {
-    bash <(curl -Ls https://raw.githubusercontent.com/overkillzero/xrayr/main/install.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/XPTMMO/Xray_V2b/refs/heads/main/install.sh)
     if [[ $? == 0 ]]; then
         if [[ $# == 0 ]]; then
             start
@@ -108,7 +108,7 @@ update() {
 #        fi
 #        return 0
 #    fi
-    bash <(curl -Ls https://raw.githubusercontent.com/overkillzero/xrayr/main/install.sh) $version
+    bash <(curl -Ls https://raw.githubusercontent.com/XPTMMO/Xray_V2b/refs/heads/main/install.sh) $version
     if [[ $? == 0 ]]; then
         echo -e "${green}Cập nhật hoàn tất và XrayR đã tự động khởi động lại, vui lòng sử dụng xrayr log để xem nhật ký${plain}"
         exit
@@ -270,7 +270,7 @@ install_bbr() {
 }
 
 update_shell() {
-    wget -O /usr/bin/XrayR -N --no-check-certificate https://raw.githubusercontent.com/overkillzero/xrayr/main/XrayR.sh
+    wget -O /usr/bin/XrayR -N --no-check-certificate https://raw.githubusercontent.com/XPTMMO/Xray_V2b/refs/heads/main/XrayR.sh
     if [[ $? != 0 ]]; then
         echo ""
         echo -e "${red}Không thể tải xuống tập lệnh, vui lòng kiểm tra kết nối mạng${plain}"
@@ -383,7 +383,7 @@ show_usage() {
     echo "XrayR install            - Cài đặt XrayR"
     echo "XrayR uninstall          - Gỡ cài đặt XrayR"
     echo "XrayR version            - Kiếm tra phiên bản XrayR"
-    echo "◄▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓©𝐇𝐓𝟒𝐆𝐕𝐏𝐍▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬►"
+    echo "◄▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓©5GTOP1.PRO.VN▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬►"
 }
 
 show_menu() {
@@ -408,7 +408,7 @@ show_menu() {
  ${green}11.${plain} Cài đặt nhanh bbr (phụ trợ giúp tăng tốc mạng)
  ${green}12.${plain} Xem phiên bản XrayR 
  ${green}13.${plain} Cập nhật tập lệnh XrayR
- ◄▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓©𝐇𝐓𝟒𝐆𝐕𝐏𝐍▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬►
+ ◄▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬𝐂𝐎𝐏𝐘𝐑𝐈𝐆𝐇𝐓©5GTOP1.PRO.VN▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬►
  "
  #Các bản cập nhật tiếp theo có thể được thêm vào chuỗi trên
     show_status
